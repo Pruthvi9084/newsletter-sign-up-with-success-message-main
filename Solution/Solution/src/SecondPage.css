@@ -1,0 +1,49 @@
+.body{
+    height: 100vh;
+    background-color:hsl(235, 18%, 26%);
+}
+
+.thanks{
+    height:55%;
+    width: 25%;
+    margin: auto;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 15px;
+}
+
+
+.tick svg{
+    width: 50px;
+    margin-top: 20px;
+    margin-left: 20px;
+    height: 30px;
+}
+
+
+.text-1{
+    margin-left: 30px;
+    margin-right: 20px;
+    font-weight: 1000;
+    font-size: 35px;
+    
+}
+
+.tick p{
+    font-size: 16px;
+    margin-left: 30px;
+    margin-right: 20px;
+
+}
+
+.tick .button{
+    margin-left: 30px;
+    margin-right: 20px;
+    margin-top: 10px;
+    width: 250px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: hsl(4, 100%, 67%);
+    border: none;
+    box-shadow:  0px 5px 5px 0px hsl(10, 75%, 50%) ;
+    color : white;
+}

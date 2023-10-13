@@ -1,0 +1,102 @@
+
+.body{
+    background-color: hsl(234, 29%, 20%);
+    height: 100vh;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    position: absolute;
+    display: flex;
+}
+
+.border{
+    margin:auto;
+    width: 65%;
+    background-color: white;
+    height: 90%;
+    display: flex;
+    border-radius: 20px;
+}
+
+.left{
+    width: 50%;
+    align-items: center;
+    padding-left: 30px;
+}
+
+@font-face {
+    font-family: myFirstFont;
+    src: url('./assets/fonts/Roboto-Bold.ttf');
+
+    font-family: secondFont;
+    src : url('./assets/fonts/Roboto-Regular.ttf')
+}
+
+
+.left h1{
+    font-size: 50px;
+    font-weight: 700;
+    padding-left: 35px;
+    font-family:myFirstFont  ;
+}
+
+.left .top-para{
+    padding-left: 35px;
+    font-family: secondFont;
+}
+
+.para{
+    display: flex;
+    align-items: center;
+}
+
+.para p{
+    padding-left: 10px;
+    font-family: secondFont;
+}
+
+.para svg{
+    margin-left : 35px;
+    height: 20px;
+
+}
+
+.email{
+    display: grid;
+    align-items: center;
+}
+
+.email h5{
+    margin-left: 35px;
+    margin-bottom: 4px;
+}
+
+.email-box{
+    margin-left: 35px;
+    width: 300px;
+    height: 40px;
+    border: 1.5px solid black;
+    border-radius:5px;
+    text-indent: 15px;
+    font-weight: bolder;
+}
+
+.left button{
+    margin-top: 30px;
+    margin-left: 35px;
+    width: 300px;
+    height:40px ;
+    border-radius: 5px;
+    font-weight: bolder;
+    color: white;
+    background-color: hsl(4, 100%, 67%);
+    border: none;
+    box-shadow:  3px 2px 2px hsl(4, 80%, 40%) ;
+}
+
+.right img{
+    width: 100%;
+    height: 530px;
+    margin: 20px 10px 20px 0px;
+}
